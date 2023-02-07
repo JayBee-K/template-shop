@@ -107,3 +107,78 @@
 .type-card:hover .type-card_image {
 	transform: scale(1.1);
 }
+
+.product-card {
+	border-radius: 5px;
+	position: relative;
+	-webkit-box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+	box-shadow: 0 1px 2px 0 rgb(60 64 67 / 10%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+}
+
+.product-card .card-sale {
+	width: 80px;
+	position: absolute;
+	z-index: 2;
+	height: 31px;
+	top: 10px;
+	left: -15px;
+	background: url(../images/flashsale.png) center/contain no-repeat;
+	margin: 0 0 10px 10px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.product-card .card-sale span {
+	font-size: 12px;
+	font-weight: 700;
+	text-align: center;
+	color: #fff;
+	width: 100%;
+	display: block;
+	padding-bottom: 4px;
+}
+
+.product-card .card-header {
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+}
+
+.product-card .card-body {
+	padding: 15px;
+}
+
+.product-card .card-body .card-title {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	font-size: 1.1em;
+	font-weight: 500;
+	color: var(--bs-gray-1000);
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+	text-overflow: ellipsis;
+	margin-bottom: 8px;
+	-webkit-transition: var(--transition-default);
+	-o-transition: var(--transition-default);
+	transition: var(--transition-default);
+}
+
+.product-card .card-body .card-price {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.product-card .card-body .card-price .card-price_current {
+	color: var(--price-color);
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+.product-card .card-body .card-price .card-price_old {
+	text-decoration: line-through;
+	color: var(--bs-gray-500);
+	font-size: 1.05em;
+}

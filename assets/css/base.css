@@ -2,6 +2,8 @@
 	--transition-default: 0.3s all ease-in-out;
 	--font-theme: 'Inter', Arial, Helvetica, sans-serif;
 	--size-theme: 14px;
+	--bs-gray-1000: #000000;
+	--price-color: #d0021c;
 }
 
 body {
@@ -197,6 +199,10 @@ input[type='number'] {
 
 .ratio-2x1 {
 	--bs-aspect-ratio: 50%;
+}
+
+.ratio-3x2 {
+	--bs-aspect-ratio: calc(2 / 3 * 100%);
 }
 
 .section-heading {
