@@ -1,0 +1,109 @@
+.section-hero .hero-pagination {
+	position: absolute;
+	bottom: 20px;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	left: 50% !important;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	z-index: 3;
+	width: auto;
+}
+
+.section-hero .hero-pagination .swiper-pagination-bullet {
+	position: relative;
+	margin: 5px;
+	width: 14px;
+	height: 14px;
+	border-radius: 50%;
+	opacity: 1;
+	background-color: rgba(var(--bs-white-rgb), .5);
+	border: 1px solid var(--bs-gray-500);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	transition: var(--transition-default);
+}
+
+.section-hero .hero-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background-color: var(--primary-color);
+	border-color: transparent;
+}
+
+.type-card {
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.type-card.type-card_one {
+	height: 640px;
+}
+
+.type-card.type-card_two {
+	height: calc(640px * 0.65 - 0.75rem);
+}
+
+.type-card.type-card_three {
+	height: calc(640px * 0.35 - 0.75rem);
+}
+
+.type-card + .type-card {
+	margin-top: 1.5rem;
+}
+
+.type-card .type-card_image {
+	max-width: 100%;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: var(--transition-default);
+}
+
+.type-card .type-card_title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	font-weight: 700;
+	font-size: 1.6em;
+	color: var(--bs-white);
+	max-width: 100%;
+	display: block;
+	white-space: nowrap;
+	background-color: rgba(0, 0, 0, .05);
+}
+
+.type-card .type-card_title:before {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: var(--bs-white);
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.type-card .type-card_title:after {
+	position: absolute;
+	content: "";
+	height: 1px;
+	background-color: var(--bs-white);
+	width: 100%;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+.type-card:hover .type-card_image {
+	transform: scale(1.1);
+}
