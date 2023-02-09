@@ -21,6 +21,34 @@
 			});
 		}
 	}
+	const handleSliderVideo = function () {
+		if ($('#slider-video').length) {
+			new Swiper('#slider-video .swiper', {
+				slidesPerView: 1.5,
+				spaceBetween: 30,
+				speeds: 750,
+				loop: true,
+				autoplay: {
+					delay: 6000,
+				},
+				navigation: {
+					nextEl: '#slider-video .button-next',
+					prevEl: '#slider-video .button-prev',
+				},
+				breakpoints: {
+					375: {
+						slidesPerView: 2.5
+					},
+					992: {
+						slidesPerView: 3.5
+					},
+					1200: {
+						slidesPerView: 3
+					}
+				}
+			});
+		}
+	}
 
 	const handleSliderFeedback = function () {
 		if ($('#slider-feedback').length) {
@@ -54,6 +82,7 @@
 
 	$(function () {
 		handleSliderHero();
+		handleSliderVideo();
 		handleSliderFeedback();
 
 		$(window).resize(() => {
