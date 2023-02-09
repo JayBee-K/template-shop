@@ -21,6 +21,36 @@
 			});
 		}
 	}
+
+	const handleSliderProduct = function () {
+		if ($('#slider-product').length) {
+			new Swiper('#slider-product .swiper', {
+				slidesPerView: 1.5,
+				spaceBetween: 15,
+				speeds: 750,
+				loop: true,
+				autoplay: {
+					delay: 6000,
+				},
+				navigation: {
+					nextEl: '#slider-product .button-next',
+					prevEl: '#slider-product .button-prev',
+				},
+				breakpoints: {
+					375: {
+						slidesPerView: 2.5
+					},
+					992: {
+						slidesPerView: 3.5
+					},
+					1200: {
+						slidesPerView: 4
+					}
+				}
+			});
+		}
+	}
+
 	const handleSliderVideo = function () {
 		if ($('#slider-video').length) {
 			new Swiper('#slider-video .swiper', {
@@ -82,6 +112,7 @@
 
 	$(function () {
 		handleSliderHero();
+		handleSliderProduct();
 		handleSliderVideo();
 		handleSliderFeedback();
 
