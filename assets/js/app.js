@@ -44,7 +44,7 @@
 						slidesPerView: 3.5
 					},
 					1200: {
-						slidesPerView: 4
+						slidesPerView: 5
 					}
 				}
 			});
