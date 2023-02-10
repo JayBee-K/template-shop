@@ -55,7 +55,6 @@
 		if ($('#slider-video').length) {
 			new Swiper('#slider-video .swiper', {
 				slidesPerView: 1.5,
-				spaceBetween: 30,
 				speeds: 750,
 				loop: true,
 				autoplay: {
@@ -67,12 +66,15 @@
 				},
 				breakpoints: {
 					375: {
-						slidesPerView: 2.5
+						spaceBetween: 10,
+						slidesPerView: 1.5
 					},
 					992: {
+						spaceBetween: 30,
 						slidesPerView: 3.5
 					},
 					1200: {
+						spaceBetween: 30,
 						slidesPerView: 3
 					}
 				}
@@ -84,7 +86,6 @@
 		if ($('#slider-feedback').length) {
 			new Swiper('#slider-feedback .swiper', {
 				slidesPerView: 1.5,
-				spaceBetween: 30,
 				speeds: 750,
 				loop: true,
 				autoplay: {
@@ -96,12 +97,15 @@
 				},
 				breakpoints: {
 					375: {
-						slidesPerView: 2.5
+						spaceBetween: 15,
+						slidesPerView: 1.5
 					},
 					992: {
+						spaceBetween: 30,
 						slidesPerView: 3.5
 					},
 					1200: {
+						spaceBetween: 30,
 						slidesPerView: 4
 					}
 				}
