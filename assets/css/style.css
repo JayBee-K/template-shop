@@ -230,6 +230,7 @@
 
 .header .header-bottom {
 	background-color: var(--bs-white);
+	border-bottom: 1px solid var(--bs-gray-200);
 }
 
 .header .header-inner {
@@ -1851,8 +1852,9 @@
 	background-image: linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0) 50%);
 	opacity: 0.9;
 	content: '';
-	transition: .5s;
+	transition: .3s;
 	pointer-events: none;
+	z-index: 2;
 }
 
 .video-card:hover:before {
@@ -1996,4 +1998,71 @@
 .section-sale .sale-wrapper .swiper {
 	margin: -5px;
 	padding: 5px;
+}
+
+
+.section-breadcrumb {
+	background-color: var(--bs-light);
+	border-bottom: 1px solid var(--bs-gray-200);
+	padding: 10px 0;
+}
+
+.section-breadcrumb .breadcrumb {
+	margin-bottom: 0;
+}
+
+.section-breadcrumb .breadcrumb .breadcrumb-item,
+.section-breadcrumb .breadcrumb .breadcrumb-item > a {
+	color: var(--bs-gray-900);
+}
+
+.section-breadcrumb .breadcrumb .breadcrumb-item > a:hover {
+	color: var(--primary-color);
+}
+
+.section-breadcrumb .breadcrumb .breadcrumb-item + .breadcrumb-item:before {
+	font-family: "Font Awesome 5 Pro";
+	content: "\f105";
+}
+
+.section-pagination .pagination {
+	margin-bottom: 0;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	gap: 5px;
+}
+
+.section-pagination .pagination .page-item .page-link {
+	border-radius: 2px;
+	color: var(--bs-gray-900);
+	min-width: 34px;
+	min-height: 34px;
+	-webkit-box-shadow: none !important;
+	box-shadow: none !important;
+	padding: 6px 5px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.section-pagination .pagination .page-item .page-link:hover,
+.section-pagination .pagination .page-item.active .page-link {
+	background-color: var(--primary-color);
+	color: var(--bs-white);
+	border-color: var(--primary-color);
+}
+
+@media screen and (max-width: 991px) {
+	.section-pagination .pagination .page-item .page-link {
+		min-width: 30px;
+		min-height: 30px;
+		padding: 0;
+	}
 }
