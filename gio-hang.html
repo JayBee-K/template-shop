@@ -523,692 +523,253 @@
 			<div class="breadcrumb-list">
 				<ol class="breadcrumb">
 					<li class="breadcrumb-item"><a href="#"><i class="fas fa-home-alt"></i>&nbsp;Trang chủ</a></li>
-					<li class="breadcrumb-item active">Danh mục sản phẩm</li>
+					<li class="breadcrumb-item"><a href="#">Giỏ hàng</a></li>
 				</ol>
 			</div>
 		</div>
 	</div>
-	<div class="section-hero section-gap_xs pb-0 position-relative">
+	<div class="section-gap_xs bg-light">
 		<div class="container">
-			<div class="hero-slide position-relative">
-				<img src="./assets/images/banner/banner-1.jpg" class="img-fluid" alt="">
-				<a href="" class="stretched-link"></a>
-			</div>
-		</div>
-	</div>
-	<div class="section-product section-gap_xs">
-		<div class="container">
-			<div class="section-heading section-heading_sm">
-				<h1 class="heading-title">
-					Tên danh mục sản phẩm
-				</h1>
-				<div class="heading-decor">
-					<span class="heading-decor_square"></span>
-					<span class="heading-decor_line"></span>
+			<div class="row g-3 gx-lg-4">
+				<div class="col-lg-8">
+					<div class="cart-form">
+						<div class="cart-form_header">
+							Thông tin đặt hàng
+						</div>
+						<div class="cart-form_body">
+							<form action="">
+								<div class="row g-3 g-lg-4">
+									<div class="col-12">
+										<div class="cart-form_field cart-form_field--inline">
+											<label for="nam" class="cart-form_field--ratio">
+												<input type="radio" name="gioi-tinh" id="nam"
+													   checked
+													   value="nam">
+												<span>Anh</span>
+											</label>
+											<label for="nu" class="cart-form_field--ratio">
+												<input type="radio" name="gioi-tinh" id="nu"
+													   value="nu">
+												<span>Chị</span>
+											</label>
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="cart-form_field">
+											<label for="" class="cart-form_field--label">
+												Họ & tên (<span class="text-danger">*</span>)
+											</label>
+											<input type="text" id="" name=""
+												   required="" class="form-control cart-form_field--input" value=""
+												   placeholder="Họ & tên người nhận hàng...">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="cart-form_field">
+											<label for="" class="cart-form_field--label">
+												Số điện thoại (<span class="text-danger">*</span>)
+											</label>
+											<input type="tel" id="" name="" maxlength="10" minlength="10"
+												   required="" class="form-control cart-form_field--input" value=""
+												   placeholder="Số điện thoại người nhận hàng...">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="cart-form_field">
+											<label for="" class="cart-form_field--label">
+												Địa chỉ (<span class="text-danger">*</span>)
+											</label>
+											<input type="text" id="" name=""
+												   required="" class="form-control cart-form_field--input" value=""
+												   placeholder="Địa chỉ người nhận hàng...">
+										</div>
+									</div>
+									<div class="col-lg-6">
+										<div class="cart-form_field">
+											<label for="" class="cart-form_field--label">
+												Email
+											</label>
+											<input type="text" id="" name=""
+												   class="form-control cart-form_field--input" value=""
+												   placeholder="Email người nhận hàng...">
+										</div>
+									</div>
+									<div class="col-lg-12">
+										<div class="cart-form_field">
+											<label for="" class="cart-form_field--label">
+												Yêu cầu thêm
+											</label>
+											<textarea id="" name="" rows="4"
+													  class="form-control cart-form_field--input cart-form_field--textarea"
+													  placeholder="Yêu cầu của quý khách là gì..."></textarea>
+										</div>
+									</div>
+									<div class="col-12">
+										<div class="cart-form_title">
+											Phương thức thanh toán
+										</div>
+										<div class="cart-form_field cart-form_field--inline flex-column align-items-start">
+											<label for="cod" class="cart-form_field--ratio">
+												<input type="radio" name="payment" id="cod"
+													   checked
+													   value="cod">
+												<span> Thanh toán COD - Thanh toán khi nhận hàng</span>
+											</label>
+											<label for="online" class="cart-form_field--ratio">
+												<input type="radio" name="payment" id="online"
+													   value="online">
+												<span> Thanh toán Online - Chuyển khoản qua ngân hàng</span>
+											</label>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
 				</div>
-			</div>
-			<div class="row mt-0 g-3 g-lg-4">
-				<div class="col-lg-3">
-					<div class="sidebar-category">
+				<div class="col-lg-4">
+					<div class="cart-sidebar">
 						<div class="sidebar-item">
 							<div class="sidebar-header">
-								Sắp xếp theo
+								Giỏ hàng của bạn
 							</div>
 							<div class="sidebar-body">
-								<div class="sidebar-list">
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="create_desc" class="sidebar-ratio_item">
-											<input type="radio" name="category-sort" id="create_desc" value="create_desc">
-											<span>Sản phẩm mới</span>
-										</label>
+								<div class="product-list">
+									<div class="product-item">
+										<div class="product-image">
+											<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
+												 class="img-fluid"
+												 alt="">
+										</div>
+										<div class="product-content">
+											<div class="product-title">
+												<a href="">Bàn trà mặt đá mã 8121 Bàn trà mặt đá mã 8121</a>
+											</div>
+											<div class="product-price">15.000.000₫</div>
+											<div class="product-buttons">
+												<div class="product-quantity">
+													<button type="button"
+															class="product-quantity_button button-quantity_down"
+															data-type="0">
+														<i class="fal fa-minus"></i>
+													</button>
+													<input type="text" class="product-quantity_input" min="1"
+														   value="10">
+													<button type="button"
+															class="product-quantity_button button-quantity_up"
+															data-type="1">
+														<i class="fal fa-plus"></i>
+													</button>
+												</div>
+												<div class="product-delete">
+													<button type="button" class="product-delete_button">
+														<i class="fal fa-trash-alt"></i>
+													</button>
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="create_asc" class="sidebar-ratio_item">
-											<input type="radio" name="category-sort" id="create_asc" value="create_asc">
-											<span>Sản phẩm cũ</span>
-										</label>
+									<div class="product-item">
+										<div class="product-image">
+											<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
+												 class="img-fluid"
+												 alt="">
+										</div>
+										<div class="product-content">
+											<div class="product-title">
+												<a href="">Bàn trà mặt đá mã 8121 Bàn trà mặt đá mã 8121</a>
+											</div>
+											<div class="product-price">15.000.000₫</div>
+											<div class="product-buttons">
+												<div class="product-quantity">
+													<button type="button"
+															class="product-quantity_button button-quantity_down"
+															disabled=""
+															data-type="0">
+														<i class="fal fa-minus"></i>
+													</button>
+													<input type="text" class="product-quantity_input" min="1"
+														   value="1">
+													<button type="button"
+															class="product-quantity_button button-quantity_up"
+															data-type="1">
+														<i class="fal fa-plus"></i>
+													</button>
+												</div>
+												<div class="product-delete">
+													<button type="button" class="product-delete_button">
+														<i class="fal fa-trash-alt"></i>
+													</button>
+												</div>
+											</div>
+										</div>
 									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_asc" class="sidebar-ratio_item">
-											<input type="radio" name="category-sort" id="price_asc" value="price_asc">
-											<span>Giá thấp đến cao</span>
-										</label>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_desc" class="sidebar-ratio_item">
-											<input type="radio" name="category-sort" id="price_desc" value="price_desc">
-											<span>Giá cao đến cao</span>
-										</label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="sidebar-item">
-							<div class="sidebar-header">
-								Chọn nhu cầu
-							</div>
-							<div class="sidebar-body">
-								<div class="sidebar-list">
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item">
-											<span>Bàn kệ thông minh</span>
-										</a>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item active">
-											<span>Bàn trà sofa</span>
-										</a>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item">
-											<span>Bàn kệ tivi</span>
-										</a>
+									<div class="product-item">
+										<div class="product-image">
+											<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
+												 class="img-fluid"
+												 alt="">
+										</div>
+										<div class="product-content">
+											<div class="product-title">
+												<a href="">Bàn trà mặt đá mã 8121 Bàn trà mặt đá mã 8121</a>
+											</div>
+											<div class="product-price">15.000.000₫</div>
+											<div class="product-buttons">
+												<div class="product-quantity">
+													<button type="button"
+															class="product-quantity_button button-quantity_down"
+															disabled=""
+															data-type="0">
+														<i class="fal fa-minus"></i>
+													</button>
+													<input type="text" class="product-quantity_input" min="1"
+														   value="1">
+													<button type="button"
+															class="product-quantity_button button-quantity_up"
+															data-type="1">
+														<i class="fal fa-plus"></i>
+													</button>
+												</div>
+												<div class="product-delete">
+													<button type="button" class="product-delete_button">
+														<i class="fal fa-trash-alt"></i>
+													</button>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
 							<div class="sidebar-footer">
-								<a href="">Xem tất cả <i class="fal fa-angle-right"></i></a>
-							</div>
-						</div>
-						<div class="sidebar-item">
-							<div class="sidebar-header">
-								Bộ sưu tập mới nhất
-							</div>
-							<div class="sidebar-body">
-								<div class="sidebar-list">
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item">
-											<span>Bàn kệ tivi đẹp</span>
-										</a>
+								<div class="sidebar-footer_item">
+									<div class="sidebar-footer_item--title">
+										Số lượng:
 									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item active">
-											<span>Bàn kệ bằng đá</span>
-										</a>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item">
-											<span>Bàn kệ hiện đại</span>
-										</a>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<a href="" class="sidebar-ratio_item">
-											<span>Bàn kệ bằng kính</span>
-										</a>
+									<div class="sidebar-footer_item--value sidebar-footer_item--price">
+										12
 									</div>
 								</div>
-							</div>
-							<div class="sidebar-footer">
-								<a href="">Xem tất cả <i class="fal fa-angle-right"></i></a>
-							</div>
-						</div>
-						<div class="sidebar-item">
-							<div class="sidebar-header">
-								Mức giá
-							</div>
-							<div class="sidebar-body">
-								<div class="sidebar-list">
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_0-10" class="sidebar-ratio_item">
-											<input type="radio" name="category-price" id="price_0-10" value="price_0-10">
-											<span>Dưới 10.000.000₫</span>
-										</label>
+								<div class="sidebar-footer_item">
+									<div class="sidebar-footer_item--title">
+										Tạm tính:
 									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_10-20" class="sidebar-ratio_item">
-											<input type="radio" name="category-price" id="price_10-20" value="create_asc">
-											<span>Từ 11.000.000₫ - 20.000.000₫</span>
-										</label>
+									<div class="sidebar-footer_item--value sidebar-footer_item--price">
+										45.000.000₫
 									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_21-30" class="sidebar-ratio_item">
-											<input type="radio" name="category-price" id="price_21-30" value="price_asc">
-											<span>Từ 21.000.000₫ - 30.000.000₫</span>
-										</label>
+								</div>
+								<div class="sidebar-footer_item">
+									<div class="sidebar-footer_item--title">
+										Thành tiền:
 									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_31-40" class="sidebar-ratio_item">
-											<input type="radio" name="category-price" id="price_31-40" value="price_desc">
-											<span>Từ 31.000.000₫ - 40.000.000₫</span>
-										</label>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_41-50" class="sidebar-ratio_item">
-											<input type="radio" name="category-price" id="price_41-50" value="price_desc">
-											<span>Từ 41.000.000₫ - 50.000.000₫</span>
-										</label>
-									</div>
-									<div class="sidebar-list_item sidebar-ratio">
-										<label for="price_51" class="sidebar-ratio_item">
-											<input type="radio" name="category-price" id="price_51" value="price_desc">
-											<span>Trên 50.000.000₫</span>
-										</label>
+									<div class="sidebar-footer_item--value sidebar-footer_item--price">
+										45.000.000₫
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-9">
-					<div class="row g-3 g-lg-4 row-cols-lg-4 row-cols-2">
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-						<div class="col">
-							<div class="product-card card border-0 bg-white">
-								<div class="card-sale">
-									<span>
-										Giảm 13%
-									</span>
-								</div>
-								<div class="card-header border-0 bg-transparent p-0">
-									<div class="ratio ratio-3x2">
-										<img src="./assets/images/product/ban-tra-mat-da-ma-8121-p1892.jpg"
-											 class="img-fluid"
-											 alt="">
-									</div>
-								</div>
-								<div class="card-body">
-									<div class="card-title">
-										Bàn trà mặt đá mã 8121
-									</div>
-									<div class="card-price">
-										<div class="card-price_current">15.000.000₫</div>
-										<div class="card-price_old">20.000.000₫</div>
-									</div>
-								</div>
-								<a href="" class="stretched-link"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="section-pagination section-gap_xs pb-0">
-			<div class="container">
-				<ul class="pagination">
-					<li class="page-item"><a class="page-link" href="#"><i class="fal fa-angle-left"></i></a></li>
-					<li class="page-item"><a class="page-link" href="#">1</a></li>
-					<li class="page-item active"><a class="page-link" href="#">2</a></li>
-					<li class="page-item"><a class="page-link" href="#">3</a></li>
-					<li class="page-item"><a class="page-link" href="#"><i class="fal fa-angle-right"></i></a></li>
-				</ul>
 			</div>
 		</div>
 	</div>
