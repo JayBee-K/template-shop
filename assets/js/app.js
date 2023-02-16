@@ -3,7 +3,7 @@
 	let windowWidth = $(window).width();
 
 	const handleNavigationMobile = () => {
-		if (windowWidth < 992) {
+		if (windowWidth < 1200) {
 			if ($("#header .header-navigation .header-navigation_list .header-navigation_mega").length) {
 				$("#header .header-navigation").attr('id', 'header-navigation');
 				$("#header .header-navigation .header-navigation_list .header-navigation_mega").each(function (index) {
