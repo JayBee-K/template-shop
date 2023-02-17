@@ -186,6 +186,10 @@ input[type='number'] {
 		padding: 24px 0;
 	}
 
+	.section-gap_sm {
+		padding: 16px 0;
+	}
+
 	.section-gap_xs {
 		padding: 12px 0;
 	}
