@@ -3142,156 +3142,6 @@
     margin-bottom: 15px;
 }
 
-.product-detail .product-combo {
-    position: relative;
-    padding: 30px 15px 40px;
-    border-radius: 8px;
-    border: 1px solid #dee2e6;
-    margin-bottom: 24px;
-    margin-top: 48px;
-}
-
-.product-detail .product-combo .product-combo_title {
-    position: absolute;
-    top: -15px;
-    height: 30px;
-    line-height: 30px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: var(--bs-white);
-    color: var(--bs-gray-1000);
-    font-size: 1.6em;
-    font-weight: 700;
-    text-transform: uppercase;
-    white-space: nowrap;
-}
-
-.product-detail .product-combo .product-combo_title:before {
-    position: absolute;
-    height: 8px;
-    width: 8px;
-    background-color: var(--primary-color);
-    display: block;
-    content: "";
-    top: calc(50% - 1.5px);
-    transform: rotate(45deg) translateY(-50%);
-    left: 10px;
-    transition: var(--transition-default);
-}
-
-.product-detail .product-combo .product-combo_title:after {
-    position: absolute;
-    height: 8px;
-    width: 8px;
-    background-color: var(--primary-color);
-    display: block;
-    content: "";
-    top: calc(50% - 1.5px);
-    transform: rotate(45deg) translateY(-50%);
-    right: 14px;
-    transition: var(--transition-default);
-}
-
-.product-detail .product-combo .product-combo_button {
-    position: absolute;
-    bottom: -16px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: var(--bs-white);
-    font-size: 1.1em;
-}
-
-.product-detail .product-combo .product-combo_button .button-theme {
-    height: 36px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
-.product-detail .product-combo .product-combo_list {
-    display: flex;
-    gap: 15px;
-    height: 100%;
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_list--plus {
-    font-size: 2em;
-    color: var(--bs-gray-1000);
-    margin: 0 10px;
-    opacity: .6;
-    align-self: center;
-}
-
-.product-detail .product-combo .product-combo_list .product-card {
-    width: 30%;
-}
-
-.product-detail .product-combo .product-combo_list .product-card + .product-card {
-    margin-top: 0;
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_total {
-    width: 30%;
-    border-left: 1px solid #dee2e6;
-    margin-left: 25px;
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_total .product-combo_inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    height: 100%;
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_total .product-combo_total--item {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 500;
-    color: var(--bs-gray-1000);
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_total .product-combo_total--item .product-combo_total--value {
-    margin-top: 4px;
-    color: var(--price-color);
-    font-size: 1.2em;
-    font-weight: 700;
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_total .product-combo_total--sale {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    font-size: 1.2em;
-    font-weight: 500;
-    color: var(--bs-gray-1000);
-}
-
-.product-detail .product-combo .product-combo_list .product-combo_total .product-combo_total--sale span {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border-radius: 5px;
-    padding: 4px 18px;
-    font-size: 1.15em;
-    font-weight: 700;
-    background-color: rgba(var(--primary-rgb), .035);
-    border: 1px solid rgba(var(--primary-rgb), .25);
-    color: var(--primary-color);
-    margin-top: 3px;
-}
-
 .product-detail .product-tabs {
     margin-bottom: 24px;
 }
@@ -3457,7 +3307,7 @@
 
 .product-sidebar .product-sidebar_item .sidebar-body .sidebar-contact .sidebar-contact_item {
     background-color: var(--bs-white);
-    padding: 10px 15px;
+    padding: 7.5px 15px;
     border-radius: 5px;
     position: relative;
     height: 100%;
@@ -3477,14 +3327,14 @@
 }
 
 .product-sidebar .product-sidebar_item .sidebar-body .sidebar-contact .sidebar-contact_item .sidebar-contact_item--icon {
-    width: 32px;
-    height: 32px;
+    width: 28px;
+    height: 28px;
     border-radius: 50%;
     background-color: var(--primary-color);
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.1em;
+    font-size: 1em;
     color: var(--bs-white);
     flex-shrink: 0;
 }
@@ -4055,30 +3905,6 @@
         font-size: 1.1em;
     }
 
-    .product-detail .product-combo .product-combo_title {
-        font-size: 1.1em;
-    }
-
-    .product-detail .product-combo .product-combo_list {
-        flex-wrap: wrap;
-    }
-
-    .product-detail .product-combo .product-combo_list .product-card {
-        width: calc(44% - 15px);
-    }
-
-    .product-detail .product-combo .product-combo_list .product-combo_list--plus {
-        width: calc(10% - 15px);
-        text-align: center;
-    }
-
-    .product-detail .product-combo .product-combo_list .product-combo_total {
-        width: 100%;
-        margin-left: 0;
-        border-left: 0;
-        font-size: 12px;
-    }
-
     .product-detail .product-tabs .nav-tabs {
         flex-wrap: nowrap;
         white-space: nowrap;
@@ -4100,13 +3926,11 @@
         font-size: 1em;
     }
 
-    .product-detail .product-tabs .tab-content .product-tabs_inner .product-tabs_inner--button,
-    .product-detail .product-combo .product-combo_button {
+    .product-detail .product-tabs .tab-content .product-tabs_inner .product-tabs_inner--button {
         font-size: .95em;
     }
 
-    .product-detail .product-tabs .tab-content .product-tabs_inner .product-tabs_inner--button .button-theme,
-    .product-detail .product-combo .product-combo_button .button-theme {
+    .product-detail .product-tabs .tab-content .product-tabs_inner .product-tabs_inner--button .button-theme {
         white-space: nowrap;
     }
 
