@@ -250,6 +250,12 @@
 		});
 	}
 
+	const setHeightNewsList = function () {
+		if($('#slider-hero .swiper').length && $('#slider-hero .news-list').length) {
+			$('#slider-hero .news-list').css('height', $('#slider-hero .swiper').height());
+		};
+	}
+
 	$(function () {
 		handleNavigationMobile();
 		handleSliderHero();
@@ -258,10 +264,12 @@
 		handleSliderFeedback();
 		handleSliderBlogs();
 		handleSlideImageProduct();
+		setHeightNewsList();
 
 		$(window).resize(() => {
 			windowWidth = $(window).width();
 			handleNavigationMobile();
+			setHeightNewsList();
 		});
 	});
 })(jQuery);
